@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/empinfo_emp_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dip"
+                android:layout_margin="2dip"
+                android:background="@color/background10"
+                android:visibility="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <TextView
+            android:id="@+id/empinfo_employmentinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employment"
+            android:textColor="@color/color_app_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+    <TextView
+            android:id="@+id/empinfo_empid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_employmentinfo"
+            android:layout_marginTop="1dip"
+            android:text="empid"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:id="@+id/empinfo_employment_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_empid"
+            android:layout_marginTop="1dip"
+            android:text="Role"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:id="@+id/empinfo_employment_startdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_employment_role"
+            android:layout_marginTop="1dip"
+            android:text="Start Date: dd/mm/yyyy"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:id="@+id/empinfo_employment_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/empinfo_empid"
+            android:layout_marginEnd="1dip"
+            android:gravity="end"
+            android:text="Active"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:id="@+id/empinfo_employment_supervisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/empinfo_employment_role"
+            android:layout_marginEnd="1dip"
+            android:gravity="end"
+            android:text="Supervisor: XYZ"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:id="@+id/empinfo_employment_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/empinfo_employment_startdate"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="1dip"
+            android:gravity="end"
+            android:text="Location: asdfdasfa"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+
+</RelativeLayout>

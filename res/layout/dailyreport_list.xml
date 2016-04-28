@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background50"
+    android:layout_marginStart="2sp">
+
+    <ImageView
+        android:id="@+id/status_image"
+        style="@style/rowStyle2"
+        android:layout_width="2sp"
+        android:layout_height="match_parent"
+        android:contentDescription="@android:string/yes"
+        android:src="@drawable/status_present" />
+
+    <TextView
+        android:id="@+id/lname"
+        style="@style/rowStyle2"
+        android:text="Surname"
+        android:layout_width="80dp"/>
+    <TextView
+        android:id="@+id/intime"
+        style="@style/rowStyle2"
+        android:layout_width="10sp"
+        android:text="00:00" />
+
+    <TextView
+        android:id="@+id/outtime"
+        style="@style/rowStyle2"
+        android:layout_width="10sp"
+        android:text="00:00" />
+
+    <TextView
+        android:id="@+id/totalhours"
+        style="@style/rowStyle2"
+        android:layout_width="10sp"
+        android:text="00:00" />
+
+</LinearLayout>

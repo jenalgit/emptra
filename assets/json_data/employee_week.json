@@ -1,0 +1,468 @@
+{
+  "employees" : [ 
+  {
+     "empid": "10874030",
+     "name": "Sajive Kumar",
+     "sex" : "male",
+     "designation" : "CTO",
+     "department" : "Consulting",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"6",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              },
+              {
+                "day":"5",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874058",
+     "name": "Swarna",
+     "sex": "female",
+     "designation" : "Team Lead",
+     "department" : "Consulting",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874059",
+     "name": "Jack",
+     "designation" : "Agent",
+     "department" : "Security",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"10.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"14.75",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"5",
+                "hours":"17.55",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874060",
+     "name": "Kalisi",
+     "designation" : "Commandor",
+     "department" : "Defence",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"5",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"6",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874061",
+     "name": "Alan",
+     "designation" : "Developer",
+     "department" : "Software",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"4",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874062",
+     "name": "Jetalal",
+     "designation" : "Actor",
+     "department" : "Movies",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874063",
+     "name": "Anjali",
+     "designation" : "Actor",
+     "department" : "Movies",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874064",
+     "name": "Mehta",
+     "designation" : "Actor",
+     "department" : "Movies",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874065",
+     "name": "Sodi",
+     "designation" : "Actor",
+     "department" : "Movies",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874066",
+     "name": "KrishnanIyer",
+     "designation" : "Actor",
+     "department" : "Movies",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874067",
+     "name": "Hati",
+     "designation" : "Actor",
+     "department" : "Movies",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874068",
+     "name": "Popatlal",
+     "designation" : "Actor",
+     "department" : "Movies",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"3",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  },
+  {
+     "empid": "10874069",
+     "name": "Bhide",
+     "designation" : "Actor",
+     "department" : "Movies",
+     "attendance" : 
+      {
+         "weekly": {
+           "weekno":"1",
+           "weekdays" : [
+              {
+                "day":"1",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"01/01/2014"
+              },
+              {
+                "day":"2",
+                "hours":"8.5",
+                "intime":"09:00:00",
+                "outtime":"17:00:00",
+                "date":"02/01/2014"
+              },
+              {
+                "day":"7",
+                "hours":"7.35",
+                "intime":"09:00:00",
+                "outtime":"16:35:00",
+                "date":"03/01/2014"
+              }
+            ]
+         }
+      }
+  }
+ ]
+}

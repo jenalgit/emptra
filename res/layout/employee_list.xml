@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background50"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <FrameLayout
+        android:id="@+id/lyt_empimg"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dip"
+        android:background="@drawable/emp_img_bg"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/emp_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@android:string/yes"
+            android:src="@drawable/emp_default" />
+
+        <TextView
+            android:id="@+id/emp_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/color_app_text_w"
+            android:background="@color/background40"
+            android:textSize="12sp"
+            android:text="10874033" />
+    </FrameLayout>
+
+    <!-- Name of employee -->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lyt_empimg"
+        android:layout_toRightOf="@+id/lyt_empimg"
+        android:text="First Name"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:typeface="sans"
+        />
+
+    <!-- Employee Designation -->
+
+    <TextView
+        android:id="@+id/designation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/lyt_empimg"
+        android:text="Designation"
+        android:textSize="12sp" />
+
+    <!-- Employee DepartmentTab -->
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/lyt_empimg"
+        android:gravity="end"
+        android:text="Department"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/total_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/designation"
+        android:gravity="right"
+        android:text="Total Hours : 37.5"
+        android:textSize="12sp"
+        />
+
+    <!-- Employee Attendance WEEK -->
+
+    <LinearLayout
+        android:id="@+id/weeks"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/lyt_empimg"
+        android:layout_alignParentEnd="true"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/week_mon"
+            style="@style/layout_day"
+            android:background="@color/color_week_today">
+
+            <TextView
+                android:id="@+id/tv_week_mon"
+                style="@style/tv_week"
+                android:text="@string/mon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/week_tue"
+            style="@style/layout_day"
+            android:background="@color/color_week_abscent">
+
+            <TextView
+                android:id="@+id/tv_week_tue"
+                style="@style/tv_week"
+                android:text="@string/tue" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/week_wed"
+            style="@style/layout_day"
+            android:background="@color/color_week_abscent">
+
+            <TextView
+                android:id="@+id/tv_week_wed"
+                style="@style/tv_week"
+                android:text="@string/wed" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/week_thu"
+            style="@style/layout_day"
+            android:background="@color/color_week_abscent">
+
+            <TextView
+                android:id="@+id/tv_week_thu"
+                style="@style/tv_week"
+                android:text="@string/thu" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/week_fri"
+            style="@style/layout_day"
+            android:background="@color/color_week_abscent">
+
+            <TextView
+                android:id="@+id/tv_week_fri"
+                style="@style/tv_week"
+                android:text="@string/fri" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/week_sat"
+            style="@style/layout_day"
+            android:background="@color/color_week_abscent">
+
+            <TextView
+                android:id="@+id/tv_week_sat"
+                style="@style/tv_week"
+                android:text="@string/sat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/week_sun"
+            style="@style/layout_day"
+            android:background ="@color/color_week_holiday" >
+
+            <TextView
+                android:id="@+id/tv_week_sun"
+                style="@style/tv_week"
+                android:text="@string/sun" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

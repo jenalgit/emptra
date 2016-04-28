@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background1">#73000011</color>
+    <color name="background10">#1A000011</color>
+    <color name="background20">#33000011</color>
+    <color name="background30">#4D000011</color>
+    <color name="background40">#73000011</color>
+    <color name="background50">#80000011</color>
+    <color name="background60">#99000011</color>
+    <color name="background70">#B3000011</color>
+    <color name="background80">#CC000011</color>
+    <color name="background90">#E6000011</color>
+
+    <color name="background2">#CCFF0000</color>
+    <color name="background3">#00000011</color>
+
+    <!-- Transparent white 0->100 ~ Transparent -> Opaque -->
+    <color name="bg_white1">#73FFFFFF</color>
+    <color name="bg_white10">#1AFFFFFF</color>
+    <color name="bg_white20">#33FFFFFF</color>
+    <color name="bg_white30">#4DFFFFFF</color>
+    <color name="bg_white40">#73FFFFFF</color>
+    <color name="bg_white50">#80FFFFFF</color>
+    <color name="bg_white60">#99FFFFFF</color>
+    <color name="bg_white70">#B3FFFFFF</color>
+    <color name="bg_white80">#CCFFFFFF</color>
+    <color name="bg_white90">#E6FFFFFF</color>
+
+
+    <color name="bg_red20">#33E72639</color>
+    <color name="bg_red80">#CCE72639</color>
+
+    <color name="bg_blue20">#333F2AB6</color>
+    <color name="bg_blue80">#CC3F2AB6</color>
+
+    <color name="bg_green20">#330E7C07</color>
+    <color name="bg_green80">#CC0E7C07</color>
+
+    <color name="bg_violet20">#33B5119F</color>
+    <color name="bg_violet80">#CCB5119F</color>
+
+    <color name="bg_yellow20">#33FCFC07</color>
+    <color name="bg_yellow80">#CCFCFC07</color>
+
+    <color name="bg_orange20">#33FCCC1B</color>
+    <color name="bg_orange80">#ccFCCC1B</color>
+
+    <color name="bg_cyan20">#33146161</color>
+    <color name="bg_cyan80">#ff146161</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="tab_highlight">#ff4ba587</color>
+
+    <color name="company_bg">#ff000000</color>
+    <color name="company_color_text_h1">#ff000000</color>
+    <color name="company_color_text_h2">#ff0f0b97</color>
+    <color name="company_color_text_h4">#ff1e6004</color>
+
+</resources>

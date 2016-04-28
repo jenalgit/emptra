@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "personal": {
+    "name": "Alan Chapman",
+    "surname": "Chapman",
+    "firstname": "Alan",
+    "sex": "male",
+    "dob": "1954-07-15 00:00:00"
+  },
+  "employment": {
+    "empid": "10874035",
+    "designation": "Technical Architect",
+    "department": "DWP",
+    "start_date": "2012-10-15 08:50:26",
+    "supervisor": 10874000,
+    "location": "Phoenix, Mahadevpura",
+    "status":"Active"
+  },
+  "contacts": {
+    "mobile": "+9109632738000",
+    "email": "abc@xyz.com",
+    "permanent_address": {
+      "houseno": "10",
+      "street1": "Street Name 1",
+      "street2": "Street Name 2",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "postcode": "560093"
+    },
+    "current_address": {
+      "houseno": "10",
+      "street1": "Street Name 11",
+      "street2": "Street Name 22",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "postcode": "560093"
+    }
+  },
+  "trainings": [
+    {
+      "title": "Business conduct",
+      "description":"virtual class room training + interactive",
+      "status":"complete",
+      "start_date":"2016-03-15 08:50:26"
+    },
+    {
+      "title": "Induction",
+      "description":"New joinee training programme",
+      "status":"complete",
+      "start_date":"2016-01-12 08:50:26"
+    },
+    {
+      "title": "C++ Advanced",
+      "description":"virtual class room training + interactive",
+      "status":"complete",
+      "start_date":"2016-01-27 08:50:26"
+    }
+  ]
+}

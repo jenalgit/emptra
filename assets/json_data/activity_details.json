@@ -1,0 +1,60 @@
+{
+    "company": "XYZ Corporation",
+    "address": "Bangalore",
+    "acts": [
+        {
+            "act_date": "01-11-2015 09:00",
+            "act_title": "Salary Distribution",
+            "act_desc": "Distribute salary to all employees and report back the details to back office.",
+            "act_author": "Finance Department",
+            "act_status": "active",
+            "act_comment": "No comments",
+            "act_type" : "news"
+        },
+        {
+            "act_date": "05-11-2015 10:00",
+            "act_title": "Meeting at Total Mall",
+            "act_desc": "Meeting with Total Mall manager at 10:00AM",
+            "act_author": "Jack (Manager)",
+            "act_status": "active",
+            "act_comment": "Attendees : Ashok, Bindusar, Dharma, Chankya",
+            "act_type": "meeting"
+        },
+        {
+            "act_date": "27-10-2015 16:30",
+            "act_title": "Team meeting",
+            "act_desc": "All supervisor and manager to meet the CEO at 16:00PM at office",
+            "act_author": "Kelly (Senior Manager)",
+            "act_status": "complete",
+            "act_comment": "No comments",
+            "act_type": "meeting"
+        },
+        {
+            "act_date": "02-09-2015 19:30",
+            "act_title": "Dinner party for 3 yrs completion",
+            "act_desc": "Dinner at Grand Hotel on 02-Sep-2015",
+            "act_author": "CEO",
+            "act_status": "complete",
+            "act_comment": "No comments",
+            "act_type":"event"
+        },
+        {
+            "act_date": "25-09-2015 05:00",
+            "act_title": "Team Meeting",
+            "act_desc": "Team Meeting for status report at 5:00PM",
+            "act_author": "admin",
+            "act_status": "active",
+            "act_comment": "No comments",
+            "act_type" : "meeting"
+        },
+        {
+            "act_date": "02-05-2015 08:30",
+            "act_title": "Heavy rains in Bangalore",
+            "act_desc": "After crouching heat its time for some wet roads and cool breeze. Monsoon is here, take your jackets",
+            "act_author": "Weather Report",
+            "act_status": "active",
+            "act_comment": "No comments",
+            "act_type":"news"
+        }
+    ]
+}

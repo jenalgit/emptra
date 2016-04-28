@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/empinfo_emp_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dip"
+                android:visibility="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- ListRow Left side Thumbnail image -->
+
+
+    <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="5dip"
+            android:background="@color/bg_white80"
+            android:padding="3dip" android:layout_alignParentEnd="false">
+
+        <ImageView
+                android:id="@+id/empinfo_photo"
+                android:layout_width="70dip"
+                android:layout_height="70dp"
+                android:contentDescription="@android:string/yes"
+                android:src="@drawable/emp_default"/>
+    </LinearLayout>
+    <!-- Name of employee -->
+
+    <TextView
+            android:id="@+id/empinfo_emp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_toEndOf="@+id/thumbnail"
+            android:layout_alignParentStart="false"
+            android:text="EmpName"
+            android:textColor="@color/color_app_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans" android:layout_alignParentEnd="false"/>
+
+    <!-- Employee Designation -->
+
+    <TextView
+            android:id="@+id/empinfo_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_emp_name"
+            android:layout_marginTop="1dip"
+            android:layout_toEndOf="@+id/thumbnail"
+            android:text="Date of Birth"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp" android:layout_alignParentStart="false" android:layout_alignParentEnd="false"/>
+
+    <!-- Employee Department -->
+
+    <TextView
+            android:id="@+id/empinfo_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_dob"
+            android:layout_marginEnd="5dip"
+            android:layout_toEndOf="@+id/thumbnail"
+            android:gravity="end"
+            android:text="Sex"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+
+
+</RelativeLayout>

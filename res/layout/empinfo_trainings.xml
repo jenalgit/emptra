@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/empinfo_emp_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dip"
+                android:layout_margin="2dip"
+                android:visibility="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                android:background="@color/background10" >
+
+    <TextView
+            android:id="@+id/empinfo_training_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trainings"
+            android:textColor="@color/color_app_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+    <TextView
+            android:id="@+id/empinfo_training_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_training_title"
+            android:text="Title/Name"
+            android:textColor="@color/color_app_text"
+            android:textSize="15sp"
+            android:typeface="sans"/>
+
+
+    <TextView
+            android:id="@+id/empinfo_training_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_training_name"
+            android:layout_marginTop="1dip"
+            android:text="Description"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:id="@+id/empinfo_training_startdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_training_desc"
+            android:layout_marginTop="1dip"
+            android:text="Start Date: dd/mm/yyyy (n)"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+    <TextView
+            android:id="@+id/empinfo_training_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/empinfo_training_name"
+            android:layout_marginEnd="5sp"
+            android:gravity="end"
+            android:text="Status: Complete"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+</RelativeLayout>

@@ -1,0 +1,169 @@
+{
+    "today": "02-05-2015 00:00",
+    "location": "Phoenix Mall",
+    "address": "Bangalore",
+    "employees": [
+        {
+            "empid": "10874030",
+            "firstname": "Sajive",
+            "sex": "male",
+            "designation": "CTO",
+            "department": "Technology",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874031",
+            "firstname": "ShivaMaha",
+            "sex": "male",
+            "designation": "Software Engineer",
+            "department": "Technology",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874032",
+            "firstname": "Paul",
+            "sex": "female",
+            "designation": "Software Lead",
+            "department": "Consulting",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874033",
+            "firstname": "Swarna Shree",
+            "sex": "female",
+            "designation": "Software Lead",
+            "department": "Consulting",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874034",
+            "firstname": "Tarak Mehta",
+            "sex": "male",
+            "designation": "Software Writer",
+            "department": "Consulting",
+            "intime": "02-05-2015 09:00",
+            "outtime": "02-05-2015 00:00"
+        },
+        {
+            "empid": "10874035",
+            "firstname": "Atmaram",
+            "sex": "male",
+            "designation": "Teacher",
+            "department": "Education",
+            "intime": "02-05-2015 09:15",
+            "outtime": "02-05-2015 19:15"
+        },
+        {
+            "empid": "10874036",
+            "firstname": "Jetalal",
+            "sex": "male",
+            "designation": "Software Lead",
+            "department": "Consulting",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874038",
+            "firstname": "Daya",
+            "sex": "female",
+            "designation": "Actor",
+            "department": "Movies",
+            "intime": "02-05-2015 08:00",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874039",
+            "firstname": "Hansraj",
+            "sex": "male",
+            "designation": "Doctor",
+            "department": "Emergency",
+            "intime": "02-05-2015 08:59",
+            "outtime": "02-05-2015 00:30"
+        },
+        {
+            "empid": "10874040",
+            "firstname": "Rahul",
+            "sex": "male",
+            "designation": "Software Lead",
+            "department": "Consulting",
+            "intime": "02-05-2015 08:44",
+            "outtime": "02-05-2015 00:00"
+        },
+        {
+            "empid": "10874041",
+            "firstname": "Maya",
+            "sex": "female",
+            "designation": "Actor",
+            "department": "Movies",
+            "intime": "02-05-2015 08:47",
+            "outtime": "02-05-2015 18:36"
+        },
+        {
+            "empid": "10874042",
+            "firstname": "Shanker",
+            "sex": "female",
+            "designation": "Doctor",
+            "department": "Emergency",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874043",
+            "firstname": "Kiran",
+            "sex": "male",
+            "designation": "Software Lead",
+            "department": "Consulting",
+            "intime": "02-05-2015 05:09",
+            "outtime": "02-05-2015 16:23"
+        },
+        {
+            "empid": "10874044",
+            "firstname": "Prakash",
+            "sex": "female",
+            "designation": "Actor",
+            "department": "Movies",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874045",
+            "firstname": "Abhimanyu",
+            "sex": "male",
+            "designation": "Engineer",
+            "department": "Telecom",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874046",
+            "firstname": "Champak",
+            "sex": "male",
+            "designation": "Software Lead",
+            "department": "Financials",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874047",
+            "firstname": "Davis",
+            "sex": "female",
+            "designation": "Architech",
+            "department": "Software Developmenr",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        },
+        {
+            "empid": "10874048",
+            "firstname": "Richard",
+            "sex": "male",
+            "designation": "Software Lead",
+            "department": "IT",
+            "intime": "02-05-2015 08:30",
+            "outtime": "02-05-2015 18:30"
+        }
+    ]
+}

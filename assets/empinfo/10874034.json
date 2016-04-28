@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "personal": {
+    "name": "Pradeep",
+    "surname": "Kumar",
+    "firstname": "Pradeep",
+    "sex": "male",
+    "dob": "1984-04-15 00:00:00"
+  },
+  "employment": {
+    "empid": "10874034",
+    "designation": "Senior Directory",
+    "department": "Software Development",
+    "start_date": "2015-10-15 08:50:26",
+    "supervisor": 10874000,
+    "location": "Manyata, Hebal",
+    "status":"Active"
+  },
+  "contacts": {
+    "mobile": "+9109632738000",
+    "email": "pradeep.kumar@xyz.com",
+    "permanent_address": {
+      "houseno": "10",
+      "street1": "Prestige Shantiniketan",
+      "street2": "Whitefield Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "postcode": "560043"
+    },
+    "current_address": {
+      "houseno": "10",
+      "street1": "Prestige Shantiniketan",
+      "street2": "Whitefield Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "postcode": "560043"
+    }
+  },
+  "trainings": [
+    {
+      "title": "Business conduct",
+      "description":"virtual class room training + interactive",
+      "status":"complete",
+      "start_date":"2016-03-15 08:50:26"
+    },
+    {
+      "title": "Induction",
+      "description":"New joinee training programme",
+      "status":"complete",
+      "start_date":"2016-01-12 08:50:26"
+    },
+    {
+      "title": "C++ Advanced",
+      "description":"virtual class room training + interactive",
+      "status":"complete",
+      "start_date":"2016-01-27 08:50:26"
+    }
+  ]
+}

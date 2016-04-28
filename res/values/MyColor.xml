@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_app_bg">#ccaa77</color>
+    <color name="color_app_text">#000000</color>
+    <color name="color_app_text_grey">#250407</color>
+    <color name="color_app_text_w">#ffffff</color>
+    <color name="color_tab_bg">#80ccaa77</color>
+    <color name="color_tab_text">#ffffff</color>
+    <color name="color_tab">#aaaaaa</color>
+    <color name="color_tr_dark">#80bbbbbb</color>
+    <color name="color_tr_light">#80dddddd</color>
+    <color name="color_tr_text">#ffffff</color>
+    <color name="color_actionbar">#ff010b0d</color>
+    <color name="color_gr_start">#80ffffff</color>
+    <color name="color_gr_center">#80ffffff</color>
+    <color name="color_gr_end">#80dddddd</color>
+    <color name="color_header">#ffff11</color>
+    <color name="color_footer">#ffff11</color>
+    <color name="color_trans">#00000000</color>
+    <color name="color_bt_bg">#ffffffff</color>
+    <color name="color_bt_font">#00000000</color>
+    <color name="color_week_present">#6600cc00</color>
+    <color name="color_week_abscent">#66CC0000</color>
+    <color name="color_week_holiday">#66000011</color>
+    <color name="color_week_today">#66000eae</color>
+
+    <color name="color_activity_title">#66008770</color>
+
+    <color name="color_app_text_error">#ffd12a2e</color>
+
+    <color name="color_app_theme">#008770</color>
+
+</resources>
+
+<!--
+    Blue Family 
+    <color name="color_app_bg">#0099ff</color>
+    <color name="color_app_text">#ffffff</color>
+    <color name="color_tab_bg">#3399cc</color>
+    <color name="color_tab_text">#ffffff</color>
+    <color name="color_tab">#0099ff</color>
+    <color name="color_tr_dark">#00bbff</color>
+    <color name="color_tr_light">#00ccff</color>
+    <color name="color_tr_text">#ffffff</color>
+    <color name="color_actionbar">#33aaee</color>
+    <color name="color_gr_start">#b7e2fb</color>
+    <color name="color_gr_center">#82c9f3</color>
+    <color name="color_gr_end">#79bfe7</color>
+    <color name="color_header">#ffff11</color>
+    <color name="color_footer">#ffff11</color>
+
+-->
+<!--
+Grey-Black Family 
+
+
+    <color name="color_app_bg">#888888</color>
+    <color name="color_app_text">#ffffff</color>
+    <color name="color_tab_bg">#bbbbbb</color>
+    <color name="color_tab_text">#ffffff</color>
+    <color name="color_tab">#aaaaaa</color>
+    <color name="color_tr_dark">#bbbbbb</color>
+    <color name="color_tr_light">#dddddd</color>
+    <color name="color_tr_text">#ffffff</color>
+    <color name="color_actionbar">#444444</color>
+    <color name="color_gr_start">#dddddd</color>
+    <color name="color_gr_center">#bbbbbb</color>
+    <color name="color_gr_end">#bbbbbb</color>
+    <color name="color_header">#ffff11</color>
+    <color name="color_footer">#ffff11</color>
+
+-->
+
+<!--
+Orange Family 
+<color name="color_tr_dark">#ff5500</color>
+<color name="color_tr_light">#ffbb00</color>
+<color name="color_tr_text">#ffffff</color>
+
+<color name="color_app_bg">#888888</color>
+<color name="color_tab_bg">#ff5500</color>
+<color name="color_tab_text">#ffffff</color>
+<color name="color_tab">#aaaaaa</color>
+<color name="color_actionbar">#444444</color>
+<color name="color_header">#ffff11</color>
+<color name="color_footer">#ffff11</color>
+
+-->
+
+<!--
+White-Orange-Blue Family 
+
+    <color name="color_app_bg">#ffffff</color>
+    <color name="color_app_text">#000000</color>
+    <color name="color_tab_bg">#80000000</color>
+    <color name="color_tab_text">#ffffff</color>
+    <color name="color_tab">#aaaaaa</color>
+    <color name="color_tr_dark">#bbbbbb</color>
+    <color name="color_tr_light">#dddddd</color>
+    <color name="color_tr_text">#ffffff</color>
+    <color name="color_actionbar">#444444</color>
+    <color name="color_gr_start">#ffffff</color>
+    <color name="color_gr_center">#ffffff/color>
+    <color name="color_gr_end">#dddddd</color>
+    <color name="color_header">#ffff11</color>
+    <color name="color_footer">#ffff11</color>
+    <color name="color_trans">#00000000 </color>
+
+-->

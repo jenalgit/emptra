@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/empinfo_emp_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dip"
+                android:layout_margin="2dip"
+                android:visibility="visible" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                android:gravity="left"
+                android:background="@color/background10">
+
+    <TextView
+            android:id="@+id/empinfo_contact_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Information"
+            android:textColor="@color/color_app_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="sans" android:layout_alignParentStart="true"/>
+
+
+    <TextView
+            android:id="@+id/empinfo_contact_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/empinfo_contact_info"
+            android:layout_marginTop="1dip"
+            android:gravity="end"
+            android:text="963327xxxxx"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"
+            />
+    <TextView
+            android:id="@+id/empinfo_contact_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/empinfo_contact_mobile"
+            android:layout_marginTop="1dip"
+            android:gravity="end"
+            android:text="xyz@email.com"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+
+    <TextView
+            android:id="@+id/empinfo_contact_permenant_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_contact_info"
+            android:layout_marginTop="3dip"
+            android:gravity="start"
+            android:text="Permenant Address"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="false"/>
+
+    <TextView
+            android:id="@+id/empinfo_contact_permenant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_contact_permenant_title"
+            android:layout_marginTop="1dip"
+            android:gravity="start"
+            android:text="Add in the address here"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"
+            android:layout_alignParentBottom="false"/>
+
+    <TextView
+            android:id="@+id/empinfo_contact_current_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_contact_permenant"
+            android:layout_marginTop="4dip"
+            android:gravity="start"
+            android:text="Current Address"
+            android:textStyle="bold"
+            android:textColor="@color/color_app_text_grey"
+            android:textSize="12sp"/>
+    <TextView
+            android:id="@+id/empinfo_contact_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_contact_current_title"
+            android:layout_marginTop="3dip"
+            android:gravity="start"
+            android:text="Add in the address here"
+            android:textColor="@color/color_app_text_grey"
+            android:textSize="12sp"/>
+
+
+    <TextView
+            android:id="@+id/empinfo_alternate_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empinfo_contact_current"
+            android:layout_marginTop="3dip"
+            android:text="Alternate Contacts"
+            android:textColor="@color/color_app_text"
+            android:textSize="12sp"/>
+
+
+</RelativeLayout>

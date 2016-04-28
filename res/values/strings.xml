@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">emptra</string>
+    <string name="app_name1">EmployeeTracker</string>
+    <string name="app_blank_name"> </string>
+    <string name="company_name">emptra</string>
+    <string name="company_url">www.emptra.com      contact@emptra.com</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_payroll">Payroll</string>
+    <string name="action_sync">Sync Server</string>
+
+    <string name ="mon">MON\n</string>
+    <string name ="tue">TUE\n</string>
+    <string name ="wed">WED\n</string>
+    <string name ="thu">THU\n</string>
+    <string name ="fri">FRI\n</string>
+    <string name ="sat">SAT\n</string>
+    <string name ="sun">SUN\n</string>
+
+    <string name ="label_in_time">In Time</string>
+    <string name ="label_out_time">Out Time</string>
+
+    <string name ="app_passcode">Password</string>
+    <string name ="scan_description">"PLACE THE QR CODE FACING THE CAMERA FOR SCAN"</string>
+    <string name ="scan_button">Touch here: Scan Employee Card</string>
+    <string name ="search_title">Search employee information</string>
+    <string name ="search_name">Name</string>
+    <string name ="search_button">Search</string>
+    <string name ="search_empid">Emp Id</string>
+    <string name ="search_date">Date</string>
+    <string name ="search_location">Location</string>
+
+    <string name ="location1">Location 1</string>
+    <string name ="location2">Location 2</string>
+    <string name ="location3">Location 3</string>
+    <string name ="location4">Location 4</string>
+
+    <string name ="activity_title">Title</string>
+    <string name ="activity_desc">Short description of what this activity relates to </string>
+
+    <string name ="empinfo_title">Employee Profile</string>
+    <string name ="empinfo_personal">Name ; </string>
+    <string name ="empinfo_employment"> Employment Informaiton</string>
+    <string name ="empinfo_contact">Contact Details </string>
+    <string name ="empinfo_trainings">Training data </string>
+
+    <string name ="empinfo_mobile">Mobile: +91 9999999999 </string>
+    <string name ="empinfo_email">Email: xxxxx@mail.com </string>
+
+
+    <string name ="payroll_title">Payroll</string>
+    <string name ="payroll_summary">Short description of what this activity relates to </string>
+
+    <string name ="syncserver_title">Sync to server</string>
+    <string name ="syncserver_desc"> The data sometimes requires to be sync\'d between the mobile and the backend server.\nServer synchronization happens when the mobile is connected to the internet and the backend server is available for synchronisation.
+    </string>
+    <string name = "syncserver_about">     </string>
+    <string name = "syncserver_uaTitle"> Server Synchronisation </string>
+    <string name = "syncserver_to"> Update server information. Send data to server for update.</string>
+    <string name = "syncserver_from"> Sync data from the server to the mobile</string>
+    <string name = "last_syncd_on"> Last sync\'d on : dd/mm/yyyy </string>
+
+
+    <string name="pref_app_data"> User Settings </string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="pref_sync_server">Sync Server at startup</string>
+    <string name="pref_sync_server_summary">Sync data to/from backend server at startup. </string>
+    <string name="pref_work_location">Work Location </string>
+    <string name="pref_work_location_summary">The current location of work</string>
+
+    <string name="pref_about">About</string>
+    <string name = "pref_about_summary">
+        Product Version : 1.0  \n Company : ET  \n Release Date: Oct 2015 \n Author : Sajive Kumar  \n Contact : sajive_kumar@mail.com
+    </string>
+
+    <string name="pref_user_agreement">User Agreement </string>
+    <string name = "pref_user_agreement_summary">
+        Welcome, and thanks for using Employee Tracker apps! When you use our products and services, you are agreeing to our terms, so please take a few minutes to read over the User Agreement below. \n
+    </string>
+
+    <string name="license_expired_title">License expired</string>
+    <string name="license_expired_msg" >The license is expired, please contact emptra to purchase the licnese.</string>
+</resources>

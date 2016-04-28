@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout="@android:layout/simple_list_item_activated_1">
+    <PreferenceCategory android:title="@string/pref_app_data" >
+        <EditTextPreference
+                android:key="prefUsername"
+                android:title="@string/pref_user_name"
+                android:summary="@string/pref_user_name_summary"
+                android:gravity="start"/>
+
+        <ListPreference
+                android:key="prefLocation"
+                android:title="@string/pref_work_location"
+                android:summary="@string/pref_work_location_summary"
+                android:gravity="start"
+                android:entries="@array/locationlist"
+                android:entryValues="@array/locationlist"
+                android:defaultValue=""/>
+
+        <CheckBoxPreference
+                android:key="prefSyncServer"
+                android:title="@string/pref_sync_server"
+                android:summary="@string/pref_sync_server_summary"
+                android:defaultValue="false"
+                android:gravity="start">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/pref_about" >
+        <Preference
+                android:title="@string/pref_about"
+                android:summary="@string/pref_about_summary"
+                android:key="prefAbout"
+                android:gravity="start"
+                android:layout="@layout/about_layout"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

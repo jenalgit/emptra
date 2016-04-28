@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scan_fragment_root_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+    <!-- Screen Design for Photos -->
+
+    <TextView
+        android:id="@+id/scanResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:padding="15dip"
+        android:text="@string/scan_description"
+        android:fontFamily="arial"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+            android:id="@+id/scan_blur"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@android:string/yes"
+            android:src="@drawable/background_scan"
+            android:scaleType="fitXY"
+
+            />
+
+    <include
+        android:id="@+id/show_emp"
+        layout="@layout/show_emp" />
+
+
+
+    <LinearLayout
+            android:id="@+id/lytScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:drawable/screen_background_light_transparent" >
+
+        <Button
+                android:id="@+id/bt_scan"
+                android:layout_width="fill_parent"
+                android:layout_height="54dp"
+                android:text="@string/scan_button"
+                android:layout_alignParentBottom="true"
+                />
+    </LinearLayout>
+
+</RelativeLayout>

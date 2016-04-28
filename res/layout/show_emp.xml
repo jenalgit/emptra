@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scan_emp_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white90"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:visibility="visible">
+
+    <!-- ListRow Left side Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dip"
+        android:background="@color/bg_white80"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/scan_photo"
+            android:layout_width="70dip"
+            android:layout_height="70dp"
+            android:contentDescription="@android:string/yes"
+            android:src="@drawable/emp_default" />
+    </LinearLayout>
+
+    <!-- Name of employee -->
+
+    <TextView
+        android:id="@+id/scan_emp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="EmpName"
+        android:textColor="@color/color_app_text"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Employee Designation -->
+
+    <TextView
+        android:id="@+id/scan_designation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scan_emp_name"
+        android:layout_marginTop="1dip"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:text="Designation"
+        android:textColor="@color/color_app_text"
+        android:textSize="12sp" />
+
+    <!-- Employee Department -->
+
+    <TextView
+        android:id="@+id/scan_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scan_designation"
+        android:layout_marginEnd="5dip"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:gravity="end"
+        android:text="Department"
+        android:textColor="@color/color_app_text"
+        android:textSize="12sp" />
+
+    <!-- Employee ID -->
+
+    <TextView
+        android:id="@+id/scan_empid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/scan_emp_name"
+        android:layout_marginEnd="5sp"
+        android:gravity="end"
+        android:text="emp_id"
+        android:textColor="@color/color_app_text"
+        android:textSize="12sp" />
+
+    <!-- Employee Attendance -->
+
+    <TextView
+        android:id="@+id/scan_in_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/scan_designation"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5sp"
+        android:gravity="end"
+        android:text="@string/label_in_time"
+        android:textColor="@color/color_app_text"
+        android:textSize="12sp" />
+
+        <TextView
+        android:id="@+id/scan_out_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/scan_department"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dip"
+        android:gravity="end"
+        android:text="@string/label_out_time"
+        android:textColor="@color/color_app_text"
+        android:textSize="12sp" />
+    
+</RelativeLayout>

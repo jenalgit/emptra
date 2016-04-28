@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/syncserver_form_lyt"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@drawable/background">
+
+    <LinearLayout
+            android:id="@+id/lyt_syncserver"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="0dip"
+            android:orientation="vertical"
+            android:background="@color/background50"
+            android:padding="2dp">
+
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/display_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@android:string/yes"
+                    android:src="@drawable/sync_server"
+                    android:padding="1dp"
+                    android:fadingEdge="vertical"
+                    android:layout_gravity="top|center_horizontal"
+                    android:alpha="0.35"
+                    android:visibility="invisible"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/syncserver_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/syncserver_title"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        android:gravity="start"
+                        android:padding="10sp"
+                        android:layout_gravity="center|center_horizontal"/>
+
+                <TextView
+                        android:id="@+id/syncserver_desc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/syncserver_desc"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:gravity="start"
+                        android:padding="10sp"
+                        android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp">
+
+            <TextView
+                    android:id="@+id/sync_from"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/syncserver_from"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:gravity="start"
+                    android:padding="10sp"
+                    android:layout_toStartOf="@+id/bt_sync_from"/>
+
+            <Button
+                    android:id="@+id/bt_sync_from"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get from Server"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="end"
+                    android:layout_alignParentEnd="true"
+                    />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp">
+
+            <TextView
+                    android:id="@+id/sync_to"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/syncserver_to"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    android:gravity="start"
+                    android:padding="10sp"
+                    android:layout_toStartOf="@+id/bt_sync_to"/>
+            <Button
+                    android:id="@+id/bt_sync_to"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send to Server"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="end"
+                    android:layout_alignParentEnd="true"
+                    />
+        </RelativeLayout>
+
+    <TextView
+            android:id="@+id/sync_on"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_syncd_on"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:gravity="start"
+            android:padding="10sp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:visibility="invisible"/>
+    </LinearLayout>
+</LinearLayout>
