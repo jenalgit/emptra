@@ -1,4 +1,4 @@
-![Emptra](https://github.com/sajivesukumara/emptra/blob/master/res/drawable-hdpi/company_logo.png)
+![Emptra](https://github.com/sajivesukumara/emptra/blob/master/NewLogo.png)
 
 Track employee attendance on daily basis. Uses QR code for scanning the employee id card.
 
@@ -73,7 +73,7 @@ EmployeeInfo class needs [assets] empinfo/<empid>.json file to exist.
 
 the json contains the following subsections.
 
-Personal : This contains information liken name, dob, sex
+Personal : This contains information like name, dob, sex
 Employment : contains employment details like empid, designation, status, startdate, supervisor & work location
 Contact : Mobile, email, current address, permanent address.
 Training : title, description, status, start date
