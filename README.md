@@ -1,13 +1,21 @@
+![Emptra](https://github.com/sajivesukumara/emptra/blob/master/res/drawable-hdpi/company_logo.png)
+
+Track employee attendance on daily basis. Uses QR code for scanning the employee id card.
+
+SDK & Java requirement
+-----------------------------------------------
 Android SDK 21
 Java JDK 1.8.40
+
+The QR code is created using the following json data structure
+---------------------------------------------------------------
+{"firstname": "Sajive Sukumara","empid":"10874030", "department":"3", "designation":"1","other":"" }
 
 
 Database
 -----------------------------------------------
-Stored in the assets folder
-employee_mobile.db
-
-sqlplus
+We have two databases of SQLIte, one that resides on android and the other on the backend server.
+The base image of the Mobile db exists in the assets folder by the employee_mobile.db
 
 When initializing the application
 
@@ -16,10 +24,10 @@ If doesnt exists, copy the db file from the assests folder to "/data/data/com.ex
 
 Sync Server
 -----------------------------------------------
+This is one of the flow in menu option that allows the mobile app to pull data from the backend server.
 
 Images were synced from
-http://insight.library.cornell.edu/mrsid/mrsid_images/RMC/Size4/RMC0036/
-Doesnt exists anymore
+http://<backend server>/employee/2016/images/
 
 Currently it reads from the assets/json_data/weekly_report.json.
 The code needs to be modified to read the file downloaded from the server.
